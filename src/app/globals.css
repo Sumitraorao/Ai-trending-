@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1e3a8a; /* Changed from #171717 to dark blue */
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary: #eff6ff;
+  --border: #dbeafe;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
