@@ -1,0 +1,237 @@
+[
+  {
+    "id": "01-web-research-agent",
+    "name": "Web Research Agent",
+    "description": "A LangGraph agent that searches the web for any topic and synthesizes a structured research report.",
+    "path": "agents/01-web-research-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "02-code-review-agent",
+    "name": "Code Review Agent",
+    "description": "An AI agent that reviews code for bugs, security issues, performance problems, and style violations.",
+    "path": "agents/02-code-review-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "03-pdf-qa-agent",
+    "name": "Pdf Qa Agent",
+    "description": "Loads any PDF and lets you ask questions about it. Supports both single-question and interactive chat modes.",
+    "path": "agents/03-pdf-qa-agent",
+    "frameworks": [
+      "Custom/Other"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "04-sql-query-agent",
+    "name": "Sql Query Agent",
+    "description": "Connects to any SQLite database and answers natural language questions by generating and executing SQL.",
+    "path": "agents/04-sql-query-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "05-email-drafting-agent",
+    "name": "Email Drafting Agent",
+    "description": "A CrewAI two-agent system that drafts professional emails. An analyst agent extracts requirements, then a writer agent produces the final email.",
+    "path": "agents/05-email-drafting-agent",
+    "frameworks": [
+      "LangChain/LangGraph",
+      "CrewAI"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "06-news-summarizer-agent",
+    "name": "News Summarizer Agent",
+    "description": "Fetches news articles on any topic and produces a structured briefing with key themes and insights.",
+    "path": "agents/06-news-summarizer-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "07-github-issue-triager",
+    "name": "Github Issue Triager",
+    "description": "Automatically triages GitHub issues: assigns severity, category, labels, and routing recommendations.",
+    "path": "agents/07-github-issue-triager",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "08-data-analysis-agent",
+    "name": "Data Analysis Agent",
+    "description": "Chat with your data. Load any CSV or Excel file and ask analytical questions in natural language.",
+    "path": "agents/08-data-analysis-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "09-resume-parser-agent",
+    "name": "Resume Parser Agent",
+    "description": "Parses resumes (TXT or PDF) into structured JSON and optionally scores candidate fit against a job description.",
+    "path": "agents/09-resume-parser-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "10-meeting-notes-agent",
+    "name": "Meeting Notes Agent",
+    "description": "Converts meeting transcripts into structured notes with summary, action items, decisions, and follow-ups.",
+    "path": "agents/10-meeting-notes-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "11-stock-research-agent",
+    "name": "Stock Research Agent",
+    "description": "Fetches real-time stock data via Yahoo Finance and generates an AI-powered investment analysis.",
+    "path": "agents/11-stock-research-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "12-travel-planner-agent",
+    "name": "Travel Planner Agent",
+    "description": "Three-agent CrewAI system that creates personalized travel itineraries with destination research, day-by-day plans, and budget breakdown.",
+    "path": "agents/12-travel-planner-agent",
+    "frameworks": [
+      "LangChain/LangGraph",
+      "CrewAI"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "13-customer-support-agent",
+    "name": "Customer Support Agent",
+    "description": "LangGraph-powered support agent with RAG knowledge base and automatic escalation routing.",
+    "path": "agents/13-customer-support-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "14-social-media-agent",
+    "name": "Social Media Agent",
+    "description": "Generates platform-optimized social media content (Twitter/X, LinkedIn, Instagram) from any topic.",
+    "path": "agents/14-social-media-agent",
+    "frameworks": [
+      "LangChain/LangGraph",
+      "CrewAI"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "15-unit-test-generator",
+    "name": "Unit Test Generator",
+    "description": "Analyzes Python code and generates comprehensive pytest test suites \u2014 happy paths, edge cases, and error conditions.",
+    "path": "agents/15-unit-test-generator",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "16-documentation-writer",
+    "name": "Documentation Writer",
+    "description": "Generates comprehensive documentation for Python modules: README, API reference, and Google-style docstrings.",
+    "path": "agents/16-documentation-writer",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "17-recipe-agent",
+    "name": "Recipe Agent",
+    "description": "Suggests 3 recipes from your available ingredients with full instructions, nutritional info, and chef tips.",
+    "path": "agents/17-recipe-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "18-job-application-agent",
+    "name": "Job Application Agent",
+    "description": "CrewAI agent that generates a complete job application package: cover letter, tailored resume bullets, interview questions, and salary range.",
+    "path": "agents/18-job-application-agent",
+    "frameworks": [
+      "LangChain/LangGraph",
+      "CrewAI"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "19-competitive-analysis-agent",
+    "name": "Competitive Analysis Agent",
+    "description": "LangGraph multi-step agent that identifies competitors, analyzes each one, and generates a strategic competitive report.",
+    "path": "agents/19-competitive-analysis-agent",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "20-multi-agent-debate",
+    "name": "Multi Agent Debate",
+    "description": "Two AI agents debate any topic from opposing sides, with an impartial AI judge declaring a winner.",
+    "path": "agents/20-multi-agent-debate",
+    "frameworks": [
+      "LangChain/LangGraph"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  },
+  {
+    "id": "21-pii-sanitization-agent",
+    "name": "Pii Sanitization Agent",
+    "description": "Removes sensitive data from text **before** it reaches an LLM or external API. Built for autonomous agent pipelines where human review is not possible...",
+    "path": "agents/21-pii-sanitization-agent",
+    "frameworks": [
+      "Custom/Other"
+    ],
+    "status": "Ready to Use",
+    "trending": true
+  }
+]

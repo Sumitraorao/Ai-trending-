@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+
+
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-800 antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-200;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white border border-gray-200 rounded-xl p-5 shadow-sm;
+  }
+
+  .card-hover {
+    @apply hover:border-blue-300 hover:shadow-md hover:-translate-y-1 transition-all duration-300;
+  }
+
+  .badge {
+    @apply px-2.5 py-1 rounded-full text-xs font-semibold;
+  }
+
+  .badge-primary {
+    @apply bg-blue-50 text-blue-700 border border-blue-200;
+  }
+
+  .badge-success {
+    @apply bg-emerald-50 text-emerald-700 border border-emerald-200;
+  }
+
+  .badge-warning {
+    @apply bg-amber-50 text-amber-700 border border-amber-200;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent;
+  }
+}
