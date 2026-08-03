@@ -3,11 +3,11 @@ Script to parse agents from README.md
 """
 import json
 import re
-import requests
+import urllib.request
 
 URL = "https://raw.githubusercontent.com/ashishpatel26/500-AI-Agents-Projects/main/README.md"
-response = requests.get(URL, timeout=10)
-content = response.text
+with urllib.request.urlopen(URL, timeout=10) as response:
+    content = response.read().decode('utf-8')
 
 agents = []
 
