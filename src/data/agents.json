@@ -1,0 +1,170 @@
+[
+  {
+    "id": "01-web-research-agent",
+    "title": "Web Research Agent",
+    "framework": "LangGraph",
+    "llm": "GPT-4o-mini (OpenAI)",
+    "description": "A LangGraph agent that searches the web for any topic and synthesizes a structured research report.",
+    "path": "ai-agents-repo/agents/01-web-research-agent"
+  },
+  {
+    "id": "02-code-review-agent",
+    "title": "Code Review Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "description": "An AI agent that reviews code for bugs, security issues, performance problems, and style violations.",
+    "path": "ai-agents-repo/agents/02-code-review-agent"
+  },
+  {
+    "id": "03-pdf-qa-agent",
+    "title": "PDF Q&A Agent",
+    "framework": "LlamaIndex",
+    "llm": "GPT-4o-mini",
+    "description": "Loads any PDF and lets you ask questions about it. Supports both single-question and interactive chat modes.",
+    "path": "ai-agents-repo/agents/03-pdf-qa-agent"
+  },
+  {
+    "id": "04-sql-query-agent",
+    "title": "SQL Query Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o-mini",
+    "description": "Connects to any SQLite database and answers natural language questions by generating and executing SQL.",
+    "path": "ai-agents-repo/agents/04-sql-query-agent"
+  },
+  {
+    "id": "05-email-drafting-agent",
+    "title": "Email Drafting Agent",
+    "framework": "CrewAI",
+    "llm": "GPT-4o-mini",
+    "description": "A CrewAI two-agent system that drafts professional emails. An analyst agent extracts requirements, then a writer agent produces the final email.",
+    "path": "ai-agents-repo/agents/05-email-drafting-agent"
+  },
+  {
+    "id": "06-news-summarizer-agent",
+    "title": "News Summarizer Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o-mini",
+    "description": "Fetches news articles on any topic and produces a structured briefing with key themes and insights.",
+    "path": "ai-agents-repo/agents/06-news-summarizer-agent"
+  },
+  {
+    "id": "07-github-issue-triager",
+    "title": "GitHub Issue Triager",
+    "framework": "LangChain",
+    "llm": "GPT-4o-mini",
+    "description": "Automatically triages GitHub issues: assigns severity, category, labels, and routing recommendations.",
+    "path": "ai-agents-repo/agents/07-github-issue-triager"
+  },
+  {
+    "id": "08-data-analysis-agent",
+    "title": "Data Analysis Agent",
+    "framework": "LangChain (Pandas Agent)",
+    "llm": "GPT-4o",
+    "description": "Chat with your data. Load any CSV or Excel file and ask analytical questions in natural language.",
+    "path": "ai-agents-repo/agents/08-data-analysis-agent"
+  },
+  {
+    "id": "09-resume-parser-agent",
+    "title": "Resume Parser Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o-mini",
+    "description": "Parses resumes (TXT or PDF) into structured JSON and optionally scores candidate fit against a job description.",
+    "path": "ai-agents-repo/agents/09-resume-parser-agent"
+  },
+  {
+    "id": "10-meeting-notes-agent",
+    "title": "Meeting Notes Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o-mini",
+    "description": "Converts meeting transcripts into structured notes with summary, action items, decisions, and follow-ups.",
+    "path": "ai-agents-repo/agents/10-meeting-notes-agent"
+  },
+  {
+    "id": "11-stock-research-agent",
+    "title": "Stock Research Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o-mini",
+    "description": "Fetches real-time stock data via Yahoo Finance and generates an AI-powered investment analysis.",
+    "path": "ai-agents-repo/agents/11-stock-research-agent"
+  },
+  {
+    "id": "12-travel-planner-agent",
+    "title": "Travel Planner Agent",
+    "framework": "CrewAI",
+    "llm": "GPT-4o-mini",
+    "description": "Three-agent CrewAI system that creates personalized travel itineraries with destination research, day-by-day plans, and budget breakdown.",
+    "path": "ai-agents-repo/agents/12-travel-planner-agent"
+  },
+  {
+    "id": "13-customer-support-agent",
+    "title": "Customer Support Agent",
+    "framework": "LangGraph + FAISS",
+    "llm": "GPT-4o-mini",
+    "description": "LangGraph-powered support agent with RAG knowledge base and automatic escalation routing.",
+    "path": "ai-agents-repo/agents/13-customer-support-agent"
+  },
+  {
+    "id": "14-social-media-agent",
+    "title": "Social Media Content Agent",
+    "framework": "CrewAI",
+    "llm": "GPT-4o-mini",
+    "description": "Generates platform-optimized social media content (Twitter/X, LinkedIn, Instagram) from any topic.",
+    "path": "ai-agents-repo/agents/14-social-media-agent"
+  },
+  {
+    "id": "15-unit-test-generator",
+    "title": "Unit Test Generator Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "description": "Analyzes Python code and generates comprehensive pytest test suites \u2014 happy paths, edge cases, and error conditions.",
+    "path": "ai-agents-repo/agents/15-unit-test-generator"
+  },
+  {
+    "id": "16-documentation-writer",
+    "title": "Documentation Writer Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "description": "Generates comprehensive documentation for Python modules: README, API reference, and Google-style docstrings.",
+    "path": "ai-agents-repo/agents/16-documentation-writer"
+  },
+  {
+    "id": "17-recipe-agent",
+    "title": "Recipe Recommendation Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o-mini",
+    "description": "Suggests 3 recipes from your available ingredients with full instructions, nutritional info, and chef tips.",
+    "path": "ai-agents-repo/agents/17-recipe-agent"
+  },
+  {
+    "id": "18-job-application-agent",
+    "title": "Job Application Agent",
+    "framework": "CrewAI",
+    "llm": "GPT-4o-mini",
+    "description": "CrewAI agent that generates a complete job application package: cover letter, tailored resume bullets, interview questions, and salary range.",
+    "path": "ai-agents-repo/agents/18-job-application-agent"
+  },
+  {
+    "id": "19-competitive-analysis-agent",
+    "title": "Competitive Analysis Agent",
+    "framework": "LangGraph",
+    "llm": "GPT-4o-mini + GPT-4o",
+    "description": "LangGraph multi-step agent that identifies competitors, analyzes each one, and generates a strategic competitive report.",
+    "path": "ai-agents-repo/agents/19-competitive-analysis-agent"
+  },
+  {
+    "id": "20-multi-agent-debate",
+    "title": "Multi-Agent Debate System",
+    "framework": "LangChain (multi-agent)",
+    "llm": "GPT-4o-mini (debaters) + GPT-4o (judge)",
+    "description": "Two AI agents debate any topic from opposing sides, with an impartial AI judge declaring a winner.",
+    "path": "ai-agents-repo/agents/20-multi-agent-debate"
+  },
+  {
+    "id": "21-pii-sanitization-agent",
+    "title": "PII Sanitization Agent",
+    "framework": "Unknown",
+    "llm": "Unknown",
+    "description": "Removes sensitive data from text **before** it reaches an LLM or external API. Built for autonomous agent pipelines where human review is not possible.",
+    "path": "ai-agents-repo/agents/21-pii-sanitization-agent"
+  }
+]
