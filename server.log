@@ -1,0 +1,65 @@
+
+> temp_app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 529ms
+✓ Running next.config.ts took 45ms
+
+○ Compiling / ...
+ GET / 200 in 4.4s (next.js: 3.9s, application-code: 478ms)
+Error: Route "/agents/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/agents/[id]/page.tsx:12:56)
+    at Array.find (<anonymous>)
+    at AgentPage (src/app/agents/[id]/page.tsx:12:28)
+  10 |
+  11 | export default function AgentPage({ params }: { params: { id: string } }) {
+> 12 |   const agent = agentsData.find((a) => a.id === params.id);
+     |                                                        ^
+  13 |
+  14 |   if (!agent) {
+  15 |     notFound();
+ GET /agents/01-web-research-agent 200 in 1575ms (next.js: 789ms, generate-params: 632ms, application-code: 154ms)
+ GET / 200 in 99ms (next.js: 7ms, application-code: 92ms)
+Error: Route "/agents/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/agents/[id]/page.tsx:12:56)
+    at Array.find (<anonymous>)
+    at AgentPage (src/app/agents/[id]/page.tsx:12:28)
+  10 |
+  11 | export default function AgentPage({ params }: { params: { id: string } }) {
+> 12 |   const agent = agentsData.find((a) => a.id === params.id);
+     |                                                        ^
+  13 |
+  14 |   if (!agent) {
+  15 |     notFound();
+ GET /agents/01-web-research-agent 200 in 66ms (next.js: 5ms, generate-params: 12ms, application-code: 50ms)
+ GET / 200 in 92ms (next.js: 4ms, application-code: 88ms)
+Error: Route "/agents/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/agents/[id]/page.tsx:12:56)
+    at Array.find (<anonymous>)
+    at AgentPage (src/app/agents/[id]/page.tsx:12:28)
+  10 |
+  11 | export default function AgentPage({ params }: { params: { id: string } }) {
+> 12 |   const agent = agentsData.find((a) => a.id === params.id);
+     |                                                        ^
+  13 |
+  14 |   if (!agent) {
+  15 |     notFound();
+ GET /agents/01-web-research-agent 200 in 77ms (next.js: 6ms, generate-params: 12ms, application-code: 60ms)
+ GET / 200 in 85ms (next.js: 4ms, application-code: 81ms)
+Error: Route "/agents/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/agents/[id]/page.tsx:12:56)
+    at Array.find (<anonymous>)
+    at AgentPage (src/app/agents/[id]/page.tsx:12:28)
+  10 |
+  11 | export default function AgentPage({ params }: { params: { id: string } }) {
+> 12 |   const agent = agentsData.find((a) => a.id === params.id);
+     |                                                        ^
+  13 |
+  14 |   if (!agent) {
+  15 |     notFound();
+ GET /agents/01-web-research-agent 200 in 180ms (next.js: 9ms, generate-params: 24ms, application-code: 147ms)
+ GET / 200 in 83ms (next.js: 5ms, application-code: 78ms)
+ GET /agents/01-web-research-agent 200 in 115ms (next.js: 9ms, generate-params: 15ms, application-code: 91ms)
