@@ -1,0 +1,436 @@
+[
+  {
+    "title": "web-research-agent",
+    "description": "Searches the web for a topic and synthesizes a structured research report",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langgraph",
+    "tags": [
+      "research",
+      "web-search",
+      "rag",
+      "langgraph"
+    ],
+    "industry": "general",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "01-web-research-agent",
+    "path": "ai-agents-repo/agents/01-web-research-agent"
+  },
+  {
+    "title": "code-review-agent",
+    "description": "Reviews code for bugs, security issues, performance, and style violations",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "code-review",
+      "software-development",
+      "security",
+      "quality"
+    ],
+    "industry": "software-development",
+    "difficulty": "beginner",
+    "llm": "gpt-4o",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "02-code-review-agent",
+    "path": "ai-agents-repo/agents/02-code-review-agent"
+  },
+  {
+    "title": "pdf-qa-agent",
+    "description": "Loads a PDF and answers questions about its content with conversation history",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "llamaindex",
+    "tags": [
+      "pdf",
+      "rag",
+      "qa",
+      "document-analysis",
+      "llamaindex"
+    ],
+    "industry": "research",
+    "difficulty": "beginner",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "03-pdf-qa-agent",
+    "path": "ai-agents-repo/agents/03-pdf-qa-agent"
+  },
+  {
+    "title": "sql-query-agent",
+    "description": "Answers natural language questions about SQL databases by generating and executing queries",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "sql",
+      "database",
+      "natural-language",
+      "data-analysis"
+    ],
+    "industry": "data-analytics",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "04-sql-query-agent",
+    "path": "ai-agents-repo/agents/04-sql-query-agent"
+  },
+  {
+    "title": "email-drafting-agent",
+    "description": "Two-agent CrewAI system that drafts professional emails from context",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "crewai",
+    "tags": [
+      "email",
+      "communication",
+      "crewai",
+      "productivity"
+    ],
+    "industry": "communication",
+    "difficulty": "beginner",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "05-email-drafting-agent",
+    "path": "ai-agents-repo/agents/05-email-drafting-agent"
+  },
+  {
+    "title": "news-summarizer-agent",
+    "description": "Fetches news on any topic and produces a structured briefing with key themes",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "news",
+      "summarization",
+      "media",
+      "nlp"
+    ],
+    "industry": "media",
+    "difficulty": "beginner",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "06-news-summarizer-agent",
+    "path": "ai-agents-repo/agents/06-news-summarizer-agent"
+  },
+  {
+    "title": "github-issue-triager",
+    "description": "Automatically triages GitHub issues with severity, category, and routing recommendations",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "github",
+      "devops",
+      "triage",
+      "issue-management",
+      "automation"
+    ],
+    "industry": "software-development",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "07-github-issue-triager",
+    "path": "ai-agents-repo/agents/07-github-issue-triager"
+  },
+  {
+    "title": "data-analysis-agent",
+    "description": "Chat with CSV/Excel data using natural language queries powered by pandas",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "data-analysis",
+      "pandas",
+      "csv",
+      "analytics",
+      "natural-language"
+    ],
+    "industry": "analytics",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "08-data-analysis-agent",
+    "path": "ai-agents-repo/agents/08-data-analysis-agent"
+  },
+  {
+    "title": "resume-parser-agent",
+    "description": "Parses resumes to structured JSON and scores candidate fit against job descriptions",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "hr",
+      "recruitment",
+      "resume",
+      "nlp",
+      "parsing"
+    ],
+    "industry": "human-resources",
+    "difficulty": "beginner",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "09-resume-parser-agent",
+    "path": "ai-agents-repo/agents/09-resume-parser-agent"
+  },
+  {
+    "title": "meeting-notes-agent",
+    "description": "Converts meeting transcripts into structured notes with action items and decisions",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "productivity",
+      "meetings",
+      "summarization",
+      "action-items"
+    ],
+    "industry": "productivity",
+    "difficulty": "beginner",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "10-meeting-notes-agent",
+    "path": "ai-agents-repo/agents/10-meeting-notes-agent"
+  },
+  {
+    "title": "stock-research-agent",
+    "description": "Real-time stock fundamentals with AI-powered investment analysis",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "finance",
+      "stocks",
+      "investment",
+      "yfinance",
+      "analysis"
+    ],
+    "industry": "finance",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "11-stock-research-agent",
+    "path": "ai-agents-repo/agents/11-stock-research-agent"
+  },
+  {
+    "title": "travel-planner-agent",
+    "description": "Multi-agent CrewAI system creating personalized travel itineraries with budget planning",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "crewai",
+    "tags": [
+      "travel",
+      "planning",
+      "crewai",
+      "itinerary",
+      "budget"
+    ],
+    "industry": "travel",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "12-travel-planner-agent",
+    "path": "ai-agents-repo/agents/12-travel-planner-agent"
+  },
+  {
+    "title": "customer-support-agent",
+    "description": "RAG-powered customer support agent with escalation routing using LangGraph",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langgraph",
+    "tags": [
+      "customer-support",
+      "rag",
+      "langgraph",
+      "faiss",
+      "escalation"
+    ],
+    "industry": "customer-service",
+    "difficulty": "advanced",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "13-customer-support-agent",
+    "path": "ai-agents-repo/agents/13-customer-support-agent"
+  },
+  {
+    "title": "social-media-content-agent",
+    "description": "Generates platform-optimized content for Twitter, LinkedIn, and Instagram",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "crewai",
+    "tags": [
+      "social-media",
+      "content",
+      "marketing",
+      "crewai",
+      "copywriting"
+    ],
+    "industry": "marketing",
+    "difficulty": "beginner",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "14-social-media-agent",
+    "path": "ai-agents-repo/agents/14-social-media-agent"
+  },
+  {
+    "title": "unit-test-generator-agent",
+    "description": "Generates comprehensive pytest test suites from Python code",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "testing",
+      "pytest",
+      "code-quality",
+      "automation",
+      "software-development"
+    ],
+    "industry": "software-development",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "15-unit-test-generator",
+    "path": "ai-agents-repo/agents/15-unit-test-generator"
+  },
+  {
+    "title": "documentation-writer-agent",
+    "description": "Generates README and docstrings for Python modules",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "documentation",
+      "docstrings",
+      "readme",
+      "software-development"
+    ],
+    "industry": "software-development",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "16-documentation-writer",
+    "path": "ai-agents-repo/agents/16-documentation-writer"
+  },
+  {
+    "title": "recipe-recommendation-agent",
+    "description": "Suggests recipes from available ingredients with instructions and nutrition info",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "recipes",
+      "food",
+      "nutrition",
+      "recommendation"
+    ],
+    "industry": "food",
+    "difficulty": "beginner",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "17-recipe-agent",
+    "path": "ai-agents-repo/agents/17-recipe-agent"
+  },
+  {
+    "title": "job-application-agent",
+    "description": "Generates cover letter, interview prep, and salary range from job description + candidate profile",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "crewai",
+    "tags": [
+      "hr",
+      "job-search",
+      "cover-letter",
+      "interview-prep",
+      "recruitment"
+    ],
+    "industry": "human-resources",
+    "difficulty": "intermediate",
+    "llm": "gpt-4o-mini",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "18-job-application-agent",
+    "path": "ai-agents-repo/agents/18-job-application-agent"
+  },
+  {
+    "title": "competitive-analysis-agent",
+    "description": "Multi-step LangGraph agent for comprehensive competitive landscape analysis",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langgraph",
+    "tags": [
+      "business",
+      "competitive-analysis",
+      "strategy",
+      "langgraph",
+      "market-research"
+    ],
+    "industry": "business",
+    "difficulty": "advanced",
+    "llm": "gpt-4o",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "19-competitive-analysis-agent",
+    "path": "ai-agents-repo/agents/19-competitive-analysis-agent"
+  },
+  {
+    "title": "multi-agent-debate-system",
+    "description": "Two AI agents debate any topic with an AI judge scoring the outcome",
+    "author": "ashishpatel26",
+    "language": "python",
+    "framework": "langchain",
+    "tags": [
+      "multi-agent",
+      "debate",
+      "reasoning",
+      "research",
+      "argumentation"
+    ],
+    "industry": "research",
+    "difficulty": "advanced",
+    "llm": "gpt-4o",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "20-multi-agent-debate",
+    "path": "ai-agents-repo/agents/20-multi-agent-debate"
+  },
+  {
+    "title": "pii-sanitization-agent",
+    "description": "Sanitizes PII from text before it reaches LLMs or external APIs, using the TrustBoost API \u2014 fail-closed, multilingual, on-chain proof",
+    "author": "teodorofodocrispin-cmyk",
+    "language": "python",
+    "framework": "other",
+    "tags": [
+      "privacy",
+      "pii",
+      "sanitization",
+      "compliance",
+      "security",
+      "safety"
+    ],
+    "industry": "general",
+    "difficulty": "beginner",
+    "llm": "none",
+    "entrypoint": "agent.py",
+    "requirements": "requirements.txt",
+    "id": "21-pii-sanitization-agent",
+    "path": "ai-agents-repo/agents/21-pii-sanitization-agent"
+  }
+]
