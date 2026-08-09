@@ -1,13 +1,18 @@
-import os
-import yaml
+"""
+Script to parse agent metadata from the ai-agents-repo.
+"""
 import json
+import os
 
-repo_path = "ai-agents-repo/agents"
-agents_data = []
+import yaml # pylint: disable=import-error
 
-if os.path.exists(repo_path):
-    for agent_dir in sorted(os.listdir(repo_path)):
-        full_dir_path = os.path.join(repo_path, agent_dir)
+
+REPO_PATH = "ai-agents-repo/agents"
+AGENTS_DATA = []
+
+if os.path.exists(REPO_PATH):
+    for agent_dir in sorted(os.listdir(REPO_PATH)):
+        full_dir_path = os.path.join(REPO_PATH, agent_dir)
         if os.path.isdir(full_dir_path):
             metadata_path = os.path.join(full_dir_path, "metadata.yaml")
             if os.path.exists(metadata_path):
@@ -16,13 +21,13 @@ if os.path.exists(repo_path):
                         data = yaml.safe_load(f)
                         data['id'] = agent_dir
                         data['path'] = full_dir_path
-                        agents_data.append(data)
-                except Exception as e:
+                        AGENTS_DATA.append(data)
+                except Exception as e: # pylint: disable=broad-exception-caught
                     print(f"Error parsing {metadata_path}: {e}")
 
-output_path = "src/data/agents.json"
-os.makedirs(os.path.dirname(output_path), exist_ok=True)
-with open(output_path, 'w', encoding='utf-8') as f:
-    json.dump(agents_data, f, indent=2)
+OUTPUT_PATH = "src/data/agents.json"
+os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
+    json.dump(AGENTS_DATA, f, indent=2)
 
-print(f"Parsed {len(agents_data)} agents and saved to {output_path}")
+print(f"Parsed {len(AGENTS_DATA)} agents and saved to {OUTPUT_PATH}")
