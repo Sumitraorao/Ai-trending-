@@ -1,0 +1,202 @@
+[
+  {
+    "id": "01-web-research-agent",
+    "name": "Web Research Agent",
+    "framework": "LangGraph",
+    "llm": "GPT-4o / Claude",
+    "industry": "General",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/01-web-research-agent",
+    "description": "A LangGraph agent that searches the web for any topic and synthesizes a structured research report."
+  },
+  {
+    "id": "02-code-review-agent",
+    "name": "Code Review Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o / Claude",
+    "industry": "Software Dev",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/02-code-review-agent",
+    "description": "An AI agent that reviews code for bugs, security issues, performance problems, and style violations."
+  },
+  {
+    "id": "03-pdf-qa-agent",
+    "name": "PDF Q&A Agent",
+    "framework": "LlamaIndex",
+    "llm": "GPT-4o",
+    "industry": "Research",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/03-pdf-qa-agent",
+    "description": "Loads any PDF and lets you ask questions about it. Supports both single-question and interactive chat modes."
+  },
+  {
+    "id": "04-sql-query-agent",
+    "name": "SQL Query Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Data",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/04-sql-query-agent",
+    "description": "Connects to any SQLite database and answers natural language questions by generating and executing SQL."
+  },
+  {
+    "id": "05-email-drafting-agent",
+    "name": "Email Drafting Agent",
+    "framework": "CrewAI",
+    "llm": "GPT-4o",
+    "industry": "Communication",
+    "difficulty": "\u2b50",
+    "path": "ai-agents-repo/agents/05-email-drafting-agent",
+    "description": "A CrewAI two-agent system that drafts professional emails. An analyst agent extracts requirements, then a writer agent produces the final email."
+  },
+  {
+    "id": "06-news-summarizer-agent",
+    "name": "News Summarizer Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Media",
+    "difficulty": "\u2b50",
+    "path": "ai-agents-repo/agents/06-news-summarizer-agent",
+    "description": "Fetches news articles on any topic and produces a structured briefing with key themes and insights."
+  },
+  {
+    "id": "07-github-issue-triager",
+    "name": "GitHub Issue Triager",
+    "framework": "LangGraph",
+    "llm": "GPT-4o / Claude",
+    "industry": "DevOps",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/07-github-issue-triager",
+    "description": "Automatically triages GitHub issues: assigns severity, category, labels, and routing recommendations."
+  },
+  {
+    "id": "08-data-analysis-agent",
+    "name": "Data Analysis Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Analytics",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/08-data-analysis-agent",
+    "description": "Chat with your data. Load any CSV or Excel file and ask analytical questions in natural language."
+  },
+  {
+    "id": "09-resume-parser-agent",
+    "name": "Resume Parser Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "HR",
+    "difficulty": "\u2b50",
+    "path": "ai-agents-repo/agents/09-resume-parser-agent",
+    "description": "Parses resumes (TXT or PDF) into structured JSON and optionally scores candidate fit against a job description."
+  },
+  {
+    "id": "10-meeting-notes-agent",
+    "name": "Meeting Notes Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Productivity",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/10-meeting-notes-agent",
+    "description": "Converts meeting transcripts into structured notes with summary, action items, decisions, and follow-ups."
+  },
+  {
+    "id": "11-stock-research-agent",
+    "name": "Stock Research Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Finance",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/11-stock-research-agent",
+    "description": "Fetches real-time stock data via Yahoo Finance and generates an AI-powered investment analysis."
+  },
+  {
+    "id": "12-travel-planner-agent",
+    "name": "Travel Planner Agent",
+    "framework": "CrewAI",
+    "llm": "GPT-4o",
+    "industry": "Travel",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/12-travel-planner-agent",
+    "description": "Three-agent CrewAI system that creates personalized travel itineraries with destination research, day-by-day plans, and budget breakdown."
+  },
+  {
+    "id": "13-customer-support-agent",
+    "name": "Customer Support Agent",
+    "framework": "LangGraph",
+    "llm": "GPT-4o",
+    "industry": "Customer Service",
+    "difficulty": "\u2b50\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/13-customer-support-agent",
+    "description": "LangGraph-powered support agent with RAG knowledge base and automatic escalation routing."
+  },
+  {
+    "id": "14-social-media-agent",
+    "name": "Social Media Content Agent",
+    "framework": "CrewAI",
+    "llm": "GPT-4o",
+    "industry": "Marketing",
+    "difficulty": "\u2b50",
+    "path": "ai-agents-repo/agents/14-social-media-agent",
+    "description": "Generates platform-optimized social media content (Twitter/X, LinkedIn, Instagram) from any topic."
+  },
+  {
+    "id": "15-unit-test-generator",
+    "name": "Unit Test Generator Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o / Claude",
+    "industry": "Software Dev",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/15-unit-test-generator",
+    "description": "Analyzes Python code and generates comprehensive pytest test suites \u2014 happy paths, edge cases, and error conditions."
+  },
+  {
+    "id": "16-documentation-writer",
+    "name": "Documentation Writer Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o / Claude",
+    "industry": "Software Dev",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/16-documentation-writer",
+    "description": "Generates comprehensive documentation for Python modules: README, API reference, and Google-style docstrings."
+  },
+  {
+    "id": "17-recipe-agent",
+    "name": "Recipe Recommendation Agent",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Food",
+    "difficulty": "\u2b50",
+    "path": "ai-agents-repo/agents/17-recipe-agent",
+    "description": "Suggests 3 recipes from your available ingredients with full instructions, nutritional info, and chef tips."
+  },
+  {
+    "id": "18-job-application-agent",
+    "name": "Job Application Agent",
+    "framework": "CrewAI",
+    "llm": "GPT-4o",
+    "industry": "HR",
+    "difficulty": "\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/18-job-application-agent",
+    "description": "CrewAI agent that generates a complete job application package: cover letter, tailored resume bullets, interview questions, and salary range."
+  },
+  {
+    "id": "19-competitive-analysis-agent",
+    "name": "Competitive Analysis Agent",
+    "framework": "LangGraph",
+    "llm": "GPT-4o",
+    "industry": "Business",
+    "difficulty": "\u2b50\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/19-competitive-analysis-agent",
+    "description": "LangGraph multi-step agent that identifies competitors, analyzes each one, and generates a strategic competitive report."
+  },
+  {
+    "id": "20-multi-agent-debate",
+    "name": "Multi-Agent Debate System",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Research",
+    "difficulty": "\u2b50\u2b50\u2b50",
+    "path": "ai-agents-repo/agents/20-multi-agent-debate",
+    "description": "Two AI agents debate any topic from opposing sides, with an impartial AI judge declaring a winner."
+  }
+]
