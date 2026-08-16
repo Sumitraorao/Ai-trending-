@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/* Override any potential dark mode or black colors */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #f9fafb;
+    color: #111827;
+  }
+}
