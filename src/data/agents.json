@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Web Research Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "01-web-research-agent",
+    "path": "ai-agents-repo/agents/01-web-research-agent"
+  },
+  {
+    "name": "Code Review Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "02-code-review-agent",
+    "path": "ai-agents-repo/agents/02-code-review-agent"
+  },
+  {
+    "name": "PDF Q&A Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "03-pdf-qa-agent",
+    "path": "ai-agents-repo/agents/03-pdf-qa-agent"
+  },
+  {
+    "name": "SQL Query Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "04-sql-query-agent",
+    "path": "ai-agents-repo/agents/04-sql-query-agent"
+  },
+  {
+    "name": "Email Drafting Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "05-email-drafting-agent",
+    "path": "ai-agents-repo/agents/05-email-drafting-agent"
+  },
+  {
+    "name": "News Summarizer Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "06-news-summarizer-agent",
+    "path": "ai-agents-repo/agents/06-news-summarizer-agent"
+  },
+  {
+    "name": "GitHub Issue Triager",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "07-github-issue-triager",
+    "path": "ai-agents-repo/agents/07-github-issue-triager"
+  },
+  {
+    "name": "Data Analysis Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "08-data-analysis-agent",
+    "path": "ai-agents-repo/agents/08-data-analysis-agent"
+  },
+  {
+    "name": "Resume Parser Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "09-resume-parser-agent",
+    "path": "ai-agents-repo/agents/09-resume-parser-agent"
+  },
+  {
+    "name": "Meeting Notes Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "10-meeting-notes-agent",
+    "path": "ai-agents-repo/agents/10-meeting-notes-agent"
+  },
+  {
+    "name": "Stock Research Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "11-stock-research-agent",
+    "path": "ai-agents-repo/agents/11-stock-research-agent"
+  },
+  {
+    "name": "Travel Planner Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "12-travel-planner-agent",
+    "path": "ai-agents-repo/agents/12-travel-planner-agent"
+  },
+  {
+    "name": "Customer Support Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "13-customer-support-agent",
+    "path": "ai-agents-repo/agents/13-customer-support-agent"
+  },
+  {
+    "name": "Social Media Content Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "14-social-media-agent",
+    "path": "ai-agents-repo/agents/14-social-media-agent"
+  },
+  {
+    "name": "Unit Test Generator Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "15-unit-test-generator",
+    "path": "ai-agents-repo/agents/15-unit-test-generator"
+  },
+  {
+    "name": "Documentation Writer Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "16-documentation-writer",
+    "path": "ai-agents-repo/agents/16-documentation-writer"
+  },
+  {
+    "name": "Recipe Recommendation Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "17-recipe-agent",
+    "path": "ai-agents-repo/agents/17-recipe-agent"
+  },
+  {
+    "name": "Job Application Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "18-job-application-agent",
+    "path": "ai-agents-repo/agents/18-job-application-agent"
+  },
+  {
+    "name": "Competitive Analysis Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "19-competitive-analysis-agent",
+    "path": "ai-agents-repo/agents/19-competitive-analysis-agent"
+  },
+  {
+    "name": "Multi-Agent Debate System",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "20-multi-agent-debate",
+    "path": "ai-agents-repo/agents/20-multi-agent-debate"
+  },
+  {
+    "name": "PII Sanitization Agent",
+    "description": "An AI Agent project.",
+    "difficulty": "Intermediate",
+    "framework": "LangChain / CrewAI",
+    "id": "21-pii-sanitization-agent",
+    "path": "ai-agents-repo/agents/21-pii-sanitization-agent"
+  }
+]
