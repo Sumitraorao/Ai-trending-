@@ -3,7 +3,7 @@ import path from 'path';
 import Link from 'next/link';
 import { ArrowLeft, Play, GitBranch, Code, Cpu, Layers } from 'lucide-react';
 
-export default async function AgentDetail({ params }: { params: Promise<{ id: string }> }) {
+export default function AgentDetail({ params }: { params: { id: string } }) {
   const dataPath = path.join(process.cwd(), 'src/data/agents.json');
   let agents = [];
   try {
@@ -11,8 +11,8 @@ export default async function AgentDetail({ params }: { params: Promise<{ id: st
   } catch (error) {
     console.error("Could not load agents data", error);
   }
-  const resolvedParams = await params;
-  const agent = agents.find((a: { id: string }) => a.id === resolvedParams.id);
+
+  const agent = agents.find((a: { id: string }) => a.id === params.id);
 
   if (!agent) {
     return (
