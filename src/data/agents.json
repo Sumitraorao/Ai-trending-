@@ -1,0 +1,331 @@
+[
+  {
+    "id": "email-auto-responder-flow",
+    "name": "Email Auto Responder Flow",
+    "industry": "Communication",
+    "description": "Automates email responses based on predefined criteria",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/flows/email_auto_responder_flow"
+  },
+  {
+    "id": "meeting-assistant-flow",
+    "name": "Meeting Assistant Flow",
+    "industry": "Productivity",
+    "description": "Organizes meetings, scheduling and agenda preparation",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/flows/meeting_assistant_flow"
+  },
+  {
+    "id": "self-evaluation-loop-flow",
+    "name": "Self Evaluation Loop Flow",
+    "industry": "Human Resources",
+    "description": "Facilitates self-assessment for performance reviews",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/flows/self_evaluation_loop_flow"
+  },
+  {
+    "id": "lead-score-flow",
+    "name": "Lead Score Flow",
+    "industry": "Sales",
+    "description": "Evaluates and scores potential leads to prioritize outreach",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/flows/lead-score-flow"
+  },
+  {
+    "id": "marketing-strategy-generator",
+    "name": "Marketing Strategy Generator",
+    "industry": "Marketing",
+    "description": "Develops marketing strategies by analyzing market trends",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/marketing_strategy"
+  },
+  {
+    "id": "job-posting-generator",
+    "name": "Job Posting Generator",
+    "industry": "Recruitment",
+    "description": "Creates job postings by analyzing job requirements",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/job-posting"
+  },
+  {
+    "id": "recruitment-workflow",
+    "name": "Recruitment Workflow",
+    "industry": "Recruitment",
+    "description": "Streamlines recruitment by automating hiring tasks",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/recruitment"
+  },
+  {
+    "id": "match-profile-to-positions",
+    "name": "Match Profile to Positions",
+    "industry": "Recruitment",
+    "description": "Matches candidate profiles to suitable job positions",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/match_profile_to_positions"
+  },
+  {
+    "id": "instagram-post-generator",
+    "name": "Instagram Post Generator",
+    "industry": "Social Media",
+    "description": "Generates and schedules Instagram posts automatically",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/instagram_post"
+  },
+  {
+    "id": "landing-page-generator",
+    "name": "Landing Page Generator",
+    "industry": "Web Development",
+    "description": "Automates creation of landing pages for websites",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/landing_page_generator"
+  },
+  {
+    "id": "game-builder-crew",
+    "name": "Game Builder Crew",
+    "industry": "Game Development",
+    "description": "Assists in game development by automating aspects of creation",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/game-builder-crew"
+  },
+  {
+    "id": "stock-analysis-tool",
+    "name": "Stock Analysis Tool",
+    "industry": "Finance",
+    "description": "Provides tools for analyzing stock market data",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/stock_analysis"
+  },
+  {
+    "id": "trip-planner",
+    "name": "Trip Planner",
+    "industry": "Travel",
+    "description": "Assists in planning trips with itineraries",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/trip_planner"
+  },
+  {
+    "id": "surprise-trip-planner",
+    "name": "Surprise Trip Planner",
+    "industry": "Travel",
+    "description": "Plans surprise trips based on user preferences",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/surprise_trip"
+  },
+  {
+    "id": "write-a-book-with-flows",
+    "name": "Write a Book with Flows",
+    "industry": "Creative Writing",
+    "description": "Assists authors with structured writing workflows",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/flows/write_a_book_with_flows"
+  },
+  {
+    "id": "screenplay-writer",
+    "name": "Screenplay Writer",
+    "industry": "Creative Writing",
+    "description": "Aids in writing screenplays with templates and guidance",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/screenplay_writer"
+  },
+  {
+    "id": "markdown-validator",
+    "name": "Markdown Validator",
+    "industry": "Documentation",
+    "description": "Validates Markdown files for proper formatting",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/markdown_validator"
+  },
+  {
+    "id": "meta-quest-knowledge",
+    "name": "Meta Quest Knowledge",
+    "industry": "Knowledge Management",
+    "description": "Manages Meta Quest knowledge for information retrieval",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/meta_quest_knowledge"
+  },
+  {
+    "id": "nvidia-models-integration",
+    "name": "NVIDIA Models Integration",
+    "industry": "AI Integration",
+    "description": "Integrates NVIDIA AI models into workflows",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/integrations/nvidia_models"
+  },
+  {
+    "id": "prep-for-a-meeting",
+    "name": "Prep for a Meeting",
+    "industry": "Productivity",
+    "description": "Prepares meeting materials and sets agendas",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/prep-for-a-meeting"
+  },
+  {
+    "id": "starter-template",
+    "name": "Starter Template",
+    "industry": "Development",
+    "description": "Starter template for new CrewAI projects",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/crews/starter_template"
+  },
+  {
+    "id": "crewai-langgraph-integration",
+    "name": "CrewAI + LangGraph Integration",
+    "industry": "AI Integration",
+    "description": "Integration between CrewAI and LangGraph",
+    "url": "https://github.com/crewAIInc/crewAI-examples/tree/main/integrations/CrewAI-LangGraph"
+  },
+  {
+    "id": "group-chat-3-members-1-manager-",
+    "name": "Group Chat (3 members, 1 manager)",
+    "industry": "Collaboration",
+    "description": "Demonstrates group task-solving via multi-agent collaboration",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_groupchat"
+  },
+  {
+    "id": "data-visualization-by-group-chat",
+    "name": "Data Visualization by Group Chat",
+    "industry": "Data Analysis",
+    "description": "Uses multi-agent collaboration to create data visualizations",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_groupchat_vis"
+  },
+  {
+    "id": "complex-task-solving-by-group-chat-6-members-",
+    "name": "Complex Task Solving by Group Chat (6 members)",
+    "industry": "Collaboration",
+    "description": "Solves complex tasks collaboratively with a larger group",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_groupchat_research"
+  },
+  {
+    "id": "task-solving-with-coding-planning-agents",
+    "name": "Task Solving with Coding & Planning Agents",
+    "industry": "Planning & Dev",
+    "description": "Combines coding and planning agents for solving tasks",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/agentchat_planning.ipynb"
+  },
+  {
+    "id": "task-solving-with-graph-transition-paths",
+    "name": "Task Solving with Graph Transition Paths",
+    "industry": "Collaboration",
+    "description": "Uses predefined transition paths in a graph for solving tasks",
+    "url": "https://microsoft.github.io/autogen/docs/notebooks/agentchat_groupchat_finite_state_machine"
+  },
+  {
+    "id": "societyofmindagent-inner-monologue",
+    "name": "SocietyOfMindAgent Inner-Monologue",
+    "industry": "Cognitive Sciences",
+    "description": "Simulates inner-monologue for problem-solving using group chats",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_society_of_mind"
+  },
+  {
+    "id": "group-chat-with-custom-speaker-selection",
+    "name": "Group Chat with Custom Speaker Selection",
+    "industry": "Collaboration",
+    "description": "Implements a custom function for speaker selection",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_groupchat_customized"
+  },
+  {
+    "id": "sequential-task-solving-single-initiating-agent-",
+    "name": "Sequential Task-Solving (single initiating agent)",
+    "industry": "Workflow Automation",
+    "description": "Automates sequential task-solving with a single initiating agent",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_multi_task_chats"
+  },
+  {
+    "id": "async-sequential-task-solving",
+    "name": "Async Sequential Task-Solving",
+    "industry": "Workflow Automation",
+    "description": "Handles asynchronous task-solving in a sequence of chats",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_multi_task_async_chats"
+  },
+  {
+    "id": "sequential-chats-with-different-initiating-agents",
+    "name": "Sequential Chats with Different Initiating Agents",
+    "industry": "Workflow Automation",
+    "description": "Sequential task-solving with different agents initiating each chat",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchats_sequential_chats"
+  },
+  {
+    "id": "solving-complex-tasks-with-nested-chats",
+    "name": "Solving Complex Tasks with Nested Chats",
+    "industry": "Problem Solving",
+    "description": "Uses nested chats to solve hierarchical and complex problems",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_nestedchat"
+  },
+  {
+    "id": "sequence-of-nested-chats",
+    "name": "Sequence of Nested Chats",
+    "industry": "Problem Solving",
+    "description": "Demonstrates sequential task-solving using nested chats",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_nested_sequential_chats"
+  },
+  {
+    "id": "optiguide-supply-chain-with-nested-chats",
+    "name": "OptiGuide Supply Chain with Nested Chats",
+    "industry": "Supply Chain",
+    "description": "Solves supply chain optimization using nested chats",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_nestedchat_optiguide"
+  },
+  {
+    "id": "conversational-chess-with-nested-chats",
+    "name": "Conversational Chess with Nested Chats",
+    "industry": "Gaming",
+    "description": "Uses nested chats for playing conversational chess with tools",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_nested_chats_chess"
+  },
+  {
+    "id": "web-search-solve-tasks-requiring-web-info",
+    "name": "Web Search: Solve Tasks Requiring Web Info",
+    "industry": "Information Retrieval",
+    "description": "Searches the web to gather information for completing tasks",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/agentchat_web_info.ipynb"
+  },
+  {
+    "id": "use-provided-tools-as-functions",
+    "name": "Use Provided Tools as Functions",
+    "industry": "Tool Integration",
+    "description": "Demonstrates how to use pre-provided tools as callable functions",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_function_call_currency_calculator"
+  },
+  {
+    "id": "rag-group-chat",
+    "name": "RAG Group Chat",
+    "industry": "Collaboration",
+    "description": "Enables group chat with Retrieval Augmented Generation",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_groupchat_RAG"
+  },
+  {
+    "id": "agent-chat-with-whisper",
+    "name": "Agent Chat with Whisper",
+    "industry": "Audio Processing",
+    "description": "AI agent for transcription and translation using Whisper",
+    "url": "https://microsoft.github.io/autogen/0.2/docs/notebooks/agentchat_video_transcript_translate_with_whisper"
+  },
+  {
+    "id": "sql-natural-language-to-sql-query",
+    "name": "SQL: Natural Language to SQL Query",
+    "industry": "Database Management",
+    "description": "Converts natural language inputs into SQL queries",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/agentchat_sql_spider.ipynb"
+  },
+  {
+    "id": "multimodal-agent-with-dalle-and-gpt-4v",
+    "name": "Multimodal Agent with DALLE and GPT-4V",
+    "industry": "Multimedia AI",
+    "description": "Combines DALLE and GPT-4V for multimodal agent communication",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/agentchat_dalle_and_gpt4v.ipynb"
+  },
+  {
+    "id": "multimodal-agent-with-llava",
+    "name": "Multimodal Agent with Llava",
+    "industry": "Image Processing",
+    "description": "Uses Llava for multimodal agent conversations",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/agentchat_lmm_llava.ipynb"
+  },
+  {
+    "id": "multimodal-agent-with-gpt-4v",
+    "name": "Multimodal Agent with GPT-4V",
+    "industry": "Multimedia AI",
+    "description": "Leverages GPT-4V for visual and conversational interactions",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/agentchat_lmm_gpt-4v.ipynb"
+  },
+  {
+    "id": "agenteval-multi-agent-assessment-system",
+    "name": "AgentEval: Multi-Agent Assessment System",
+    "industry": "Performance Evaluation",
+    "description": "Evaluating LLM-based application utility",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/agenteval_cq_math.ipynb"
+  },
+  {
+    "id": "track-llm-calls-and-errors-using-agentops",
+    "name": "Track LLM Calls and Errors using AgentOps",
+    "industry": "Monitoring & Analytics",
+    "description": "Monitors LLM interactions, tool usage, and errors",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/agentchat_agentops.ipynb"
+  },
+  {
+    "id": "auto-build-multi-agent-system-with-agentbuilder",
+    "name": "Auto Build Multi-agent System with AgentBuilder",
+    "industry": "AI Development",
+    "description": "Automatically builds multi-agent systems",
+    "url": "https://github.com/microsoft/autogen/blob/0.2/notebook/autobuild_basic.ipynb"
+  }
+]
