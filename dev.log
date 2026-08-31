@@ -1,0 +1,13 @@
+
+> ai-agents-webapp@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.2s (453 modules)
+ GET / 200 in 5738ms
+ ✓ Compiled in 530ms (232 modules)
