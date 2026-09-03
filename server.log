@@ -1,0 +1,14 @@
+
+> ai-agents-directory@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.2.0
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 1904ms
+ ○ Compiling / ...
+ ✓ Compiled / in 8.1s (784 modules)
+ GET / 200 in 9229ms
+ ✓ Compiled in 232ms (346 modules)
