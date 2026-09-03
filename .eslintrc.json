@@ -1,0 +1,7 @@
+{
+  "extends": "next/core-web-vitals",
+  "ignorePatterns": [
+    "ai-agents-repo/**",
+    ".next/**"
+  ]
+}
