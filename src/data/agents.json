@@ -1,0 +1,128 @@
+[
+  {
+    "id": "01-web-research-agent",
+    "name": "01 Web Research Agent",
+    "description": "# Web Research Agent\n\nA LangGraph agent that searches the web for any topic and synthesizes a structured research report.\n\n**Framework**: LangGraph  \n**LLM**: GPT-4o-mini (OpenAI)  \n**Search**: Tavily...",
+    "path": "/agents/01-web-research-agent"
+  },
+  {
+    "id": "02-code-review-agent",
+    "name": "02 Code Review Agent",
+    "description": "# Code Review Agent\n\nAn AI agent that reviews code for bugs, security issues, performance problems, and style violations.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o  \n\n## Setup\n\n```bash\npip install -...",
+    "path": "/agents/02-code-review-agent"
+  },
+  {
+    "id": "03-pdf-qa-agent",
+    "name": "03 Pdf Qa Agent",
+    "description": "# PDF Q&A Agent\n\nLoads any PDF and lets you ask questions about it. Supports both single-question and interactive chat modes.\n\n**Framework**: LlamaIndex  \n**LLM**: GPT-4o-mini  \n\n## Setup\n\n```bash\npip...",
+    "path": "/agents/03-pdf-qa-agent"
+  },
+  {
+    "id": "04-sql-query-agent",
+    "name": "04 Sql Query Agent",
+    "description": "# SQL Query Agent\n\nConnects to any SQLite database and answers natural language questions by generating and executing SQL.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o-mini  \n\n## Setup\n\n```bash\npip ins...",
+    "path": "/agents/04-sql-query-agent"
+  },
+  {
+    "id": "05-email-drafting-agent",
+    "name": "05 Email Drafting Agent",
+    "description": "# Email Drafting Agent\n\nA CrewAI two-agent system that drafts professional emails. An analyst agent extracts requirements, then a writer agent produces the final email.\n\n**Framework**: CrewAI  \n**LLM*...",
+    "path": "/agents/05-email-drafting-agent"
+  },
+  {
+    "id": "06-news-summarizer-agent",
+    "name": "06 News Summarizer Agent",
+    "description": "# News Summarizer Agent\n\nFetches news articles on any topic and produces a structured briefing with key themes and insights.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o-mini  \n**Data**: NewsAPI (optio...",
+    "path": "/agents/06-news-summarizer-agent"
+  },
+  {
+    "id": "07-github-issue-triager",
+    "name": "07 Github Issue Triager",
+    "description": "# GitHub Issue Triager\n\nAutomatically triages GitHub issues: assigns severity, category, labels, and routing recommendations.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o-mini  \n\n## Setup\n\n```bash\npip ...",
+    "path": "/agents/07-github-issue-triager"
+  },
+  {
+    "id": "08-data-analysis-agent",
+    "name": "08 Data Analysis Agent",
+    "description": "# Data Analysis Agent\n\nChat with your data. Load any CSV or Excel file and ask analytical questions in natural language.\n\n**Framework**: LangChain (Pandas Agent)  \n**LLM**: GPT-4o  \n\n## Setup\n\n```bash...",
+    "path": "/agents/08-data-analysis-agent"
+  },
+  {
+    "id": "09-resume-parser-agent",
+    "name": "09 Resume Parser Agent",
+    "description": "# Resume Parser Agent\n\nParses resumes (TXT or PDF) into structured JSON and optionally scores candidate fit against a job description.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o-mini  \n\n## Setup\n\n```...",
+    "path": "/agents/09-resume-parser-agent"
+  },
+  {
+    "id": "10-meeting-notes-agent",
+    "name": "10 Meeting Notes Agent",
+    "description": "# Meeting Notes Agent\n\nConverts meeting transcripts into structured notes with summary, action items, decisions, and follow-ups.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o-mini  \n\n## Setup\n\n```bash\np...",
+    "path": "/agents/10-meeting-notes-agent"
+  },
+  {
+    "id": "11-stock-research-agent",
+    "name": "11 Stock Research Agent",
+    "description": "# Stock Research Agent\n\nFetches real-time stock data via Yahoo Finance and generates an AI-powered investment analysis.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o-mini  \n**Data**: Yahoo Finance (free...",
+    "path": "/agents/11-stock-research-agent"
+  },
+  {
+    "id": "12-travel-planner-agent",
+    "name": "12 Travel Planner Agent",
+    "description": "# Travel Planner Agent\n\nThree-agent CrewAI system that creates personalized travel itineraries with destination research, day-by-day plans, and budget breakdown.\n\n**Framework**: CrewAI  \n**LLM**: GPT-...",
+    "path": "/agents/12-travel-planner-agent"
+  },
+  {
+    "id": "13-customer-support-agent",
+    "name": "13 Customer Support Agent",
+    "description": "# Customer Support Agent\n\nLangGraph-powered support agent with RAG knowledge base and automatic escalation routing.\n\n**Framework**: LangGraph + FAISS  \n**LLM**: GPT-4o-mini  \n\n## Setup\n\n```bash\npip in...",
+    "path": "/agents/13-customer-support-agent"
+  },
+  {
+    "id": "14-social-media-agent",
+    "name": "14 Social Media Agent",
+    "description": "# Social Media Content Agent\n\nGenerates platform-optimized social media content (Twitter/X, LinkedIn, Instagram) from any topic.\n\n**Framework**: CrewAI  \n**LLM**: GPT-4o-mini  \n\n## Setup\n\n```bash\npip ...",
+    "path": "/agents/14-social-media-agent"
+  },
+  {
+    "id": "15-unit-test-generator",
+    "name": "15 Unit Test Generator",
+    "description": "# Unit Test Generator Agent\n\nAnalyzes Python code and generates comprehensive pytest test suites \u2014 happy paths, edge cases, and error conditions.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o  \n\n## Setu...",
+    "path": "/agents/15-unit-test-generator"
+  },
+  {
+    "id": "16-documentation-writer",
+    "name": "16 Documentation Writer",
+    "description": "# Documentation Writer Agent\n\nGenerates comprehensive documentation for Python modules: README, API reference, and Google-style docstrings.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o  \n\n## Setup\n\n```...",
+    "path": "/agents/16-documentation-writer"
+  },
+  {
+    "id": "17-recipe-agent",
+    "name": "17 Recipe Agent",
+    "description": "# Recipe Recommendation Agent\n\nSuggests 3 recipes from your available ingredients with full instructions, nutritional info, and chef tips.\n\n**Framework**: LangChain  \n**LLM**: GPT-4o-mini  \n\n## Setup\n...",
+    "path": "/agents/17-recipe-agent"
+  },
+  {
+    "id": "18-job-application-agent",
+    "name": "18 Job Application Agent",
+    "description": "# Job Application Agent\n\nCrewAI agent that generates a complete job application package: cover letter, tailored resume bullets, interview questions, and salary range.\n\n**Framework**: CrewAI  \n**LLM**:...",
+    "path": "/agents/18-job-application-agent"
+  },
+  {
+    "id": "19-competitive-analysis-agent",
+    "name": "19 Competitive Analysis Agent",
+    "description": "# Competitive Analysis Agent\n\nLangGraph multi-step agent that identifies competitors, analyzes each one, and generates a strategic competitive report.\n\n**Framework**: LangGraph  \n**LLM**: GPT-4o-mini ...",
+    "path": "/agents/19-competitive-analysis-agent"
+  },
+  {
+    "id": "20-multi-agent-debate",
+    "name": "20 Multi Agent Debate",
+    "description": "# Multi-Agent Debate System\n\nTwo AI agents debate any topic from opposing sides, with an impartial AI judge declaring a winner.\n\n**Framework**: LangChain (multi-agent)  \n**LLM**: GPT-4o-mini (debaters...",
+    "path": "/agents/20-multi-agent-debate"
+  },
+  {
+    "id": "21-pii-sanitization-agent",
+    "name": "21 Pii Sanitization Agent",
+    "description": "# PII Sanitization Agent\n\nRemoves sensitive data from text **before** it reaches an LLM or external API.\nBuilt for autonomous agent pipelines where human review is not possible.\n\nThe agent calls the [...",
+    "path": "/agents/21-pii-sanitization-agent"
+  }
+]
