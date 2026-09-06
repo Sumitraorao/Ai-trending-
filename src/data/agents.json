@@ -1,0 +1,164 @@
+[
+    {
+        "name": "HIA (Health Insights Agent)",
+        "category": "Healthcare",
+        "description": "Analyses medical reports and provides health insights",
+        "url": "https://github.com/harshhh28/hia"
+    },
+    {
+        "name": "AI Health Assistant",
+        "category": "Healthcare",
+        "description": "Diagnoses and monitors diseases using patient data",
+        "url": "https://github.com/ahmadvh/AI-Agents-for-Medical-Diagnostics"
+    },
+    {
+        "name": "Automated Trading Bot",
+        "category": "Finance",
+        "description": "Automates stock trading with real-time market analysis",
+        "url": "https://github.com/MingyuJ666/Stockagent"
+    },
+    {
+        "name": "Agent Wallet SDK",
+        "category": "Finance",
+        "description": "Non-custodial smart contract wallet SDK for AI agents with enforced spend limits",
+        "url": "https://github.com/up2itnow0822/agent-wallet-sdk"
+    },
+    {
+        "name": "Virtual AI Tutor",
+        "category": "Education",
+        "description": "Provides personalized education tailored to users",
+        "url": "https://github.com/hqanhh/EduGPT"
+    },
+    {
+        "name": "24/7 AI Chatbot",
+        "category": "Customer Service",
+        "description": "Handles customer queries around the clock",
+        "url": "https://github.com/NirDiamant/GenAI_Agents/blob/main/all_agents_tutorials/customer_support_agent_langgraph.ipynb"
+    },
+    {
+        "name": "Product Recommendation Agent",
+        "category": "Retail",
+        "description": "Suggests products based on user preferences and history",
+        "url": "https://github.com/microsoft/RecAI"
+    },
+    {
+        "name": "Self-Driving Delivery Agent",
+        "category": "Transportation",
+        "description": "Optimizes routes and autonomously delivers packages",
+        "url": "https://github.com/sled-group/driVLMe"
+    },
+    {
+        "name": "Factory Process Monitoring Agent",
+        "category": "Manufacturing",
+        "description": "Monitors production lines and ensures quality control",
+        "url": "https://github.com/yuchenxia/llm4ias"
+    },
+    {
+        "name": "Property Pricing Agent",
+        "category": "Real Estate",
+        "description": "Analyzes market trends to determine property prices",
+        "url": "https://github.com/AleksNeStu/ai-real-estate-assistant"
+    },
+    {
+        "name": "Smart Farming Assistant",
+        "category": "Agriculture",
+        "description": "Provides insights on crop health and yield predictions",
+        "url": "https://github.com/mohammed97ashraf/LLM_Agri_Bot"
+    },
+    {
+        "name": "Energy Demand Forecasting Agent",
+        "category": "Energy",
+        "description": "Predicts energy usage to optimize grid management",
+        "url": "https://github.com/yecchen/MIRAI"
+    },
+    {
+        "name": "Content Personalization Agent",
+        "category": "Entertainment",
+        "description": "Recommends personalized media based on preferences",
+        "url": "https://github.com/crosleythomas/MirrorGPT"
+    },
+    {
+        "name": "Legal Document Review Assistant",
+        "category": "Legal",
+        "description": "Automates document review and highlights key clauses",
+        "url": "https://github.com/firica/legalai"
+    },
+    {
+        "name": "Recruitment Recommendation Agent",
+        "category": "Human Resources",
+        "description": "Suggests best-fit candidates for job openings",
+        "url": "https://github.com/sentient-engineering/jobber"
+    },
+    {
+        "name": "Virtual Travel Assistant",
+        "category": "Hospitality",
+        "description": "Plans travel itineraries based on preferences",
+        "url": "https://github.com/nirbar1985/ai-travel-agent"
+    },
+    {
+        "name": "AI Game Companion Agent",
+        "category": "Gaming",
+        "description": "Enhances player experience with real-time assistance",
+        "url": "https://github.com/onjas-buidl/LLM-agent-game"
+    },
+    {
+        "name": "Real-Time Threat Detection Agent",
+        "category": "Cybersecurity",
+        "description": "Identifies potential threats and mitigates attacks",
+        "url": "https://github.com/NVISOsecurity/cyber-security-llm-agents"
+    },
+    {
+        "name": "E-commerce Personal Shopper Agent",
+        "category": "E-commerce",
+        "description": "Helps customers find products they'll love",
+        "url": "https://github.com/Hoanganhvu123/ShoppingGPT"
+    },
+    {
+        "name": "Logistics Optimization Agent",
+        "category": "Supply Chain",
+        "description": "Plans efficient delivery routes and manages inventory",
+        "url": "https://github.com/microsoft/OptiGuide"
+    },
+    {
+        "name": "Vibe Hacking Agent",
+        "category": "Cybersecurity",
+        "description": "Autonomous Multi-Agent Based Red Team Testing Service",
+        "url": "https://github.com/PurpleAILAB/Decepticon"
+    },
+    {
+        "name": "Agent Memory Guard",
+        "category": "Cybersecurity",
+        "description": "Detects and blocks memory poisoning attacks (OWASP ASI06) in AI agent memory stores",
+        "url": "https://github.com/OWASP/www-project-agent-memory-guard"
+    },
+    {
+        "name": "Citadel",
+        "category": "Software Development",
+        "description": "Orchestrates Claude Code agent fleets with lifecycle hooks, skills, campaign management, and postmortem-driven architecture",
+        "url": "https://github.com/SethGammon/Citadel"
+    },
+    {
+        "name": "MediSuite-AI-Agent",
+        "category": "Health Insurance",
+        "description": "Automates hospital / insurance claiming workflow",
+        "url": "https://github.com/ahmedmansour5/MediSuite-Ai-Agent"
+    },
+    {
+        "name": "Lina Egyptian Medical Chatbot",
+        "category": "Healthcare",
+        "description": "Egyptian medical assistant chatbot",
+        "url": "https://github.com/dina-khalid/Lina-Egyptian-Medical-Chatbot"
+    },
+    {
+        "name": "NextRole (AI Career Assistant)",
+        "category": "Human Resources",
+        "description": "Tailors a resume to a job description and generates interview prep plus a day-of battlecard via a multi-agent system",
+        "url": "https://github.com/tam159/next-role"
+    },
+    {
+        "name": "PII Sanitization Agent",
+        "category": "Privacy/Compliance",
+        "description": "Redacts PII (emails, phones, national IDs, bank accounts, API keys) from text before it reaches an LLM; fail-closed, multilingual, on-chain proof via TrustBoost",
+        "url": "https://github.com/teodorofodocrispin-cmyk/TrustBoost-PII-Sanitizer"
+    }
+]
