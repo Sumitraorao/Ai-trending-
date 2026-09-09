@@ -1,0 +1,268 @@
+[
+  {
+    "id": "01-web-research-agent",
+    "name": "01 Web Research Agent",
+    "description": "Searches the web for a topic and synthesizes a structured research report",
+    "tags": [
+      "research",
+      "web-search",
+      "rag",
+      "langgraph"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "02-code-review-agent",
+    "name": "02 Code Review Agent",
+    "description": "Reviews code for bugs, security issues, performance, and style violations",
+    "tags": [
+      "code-review",
+      "software-development",
+      "security",
+      "quality"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "03-pdf-qa-agent",
+    "name": "03 Pdf Qa Agent",
+    "description": "Loads a PDF and answers questions about its content with conversation history",
+    "tags": [
+      "pdf",
+      "rag",
+      "qa",
+      "document-analysis",
+      "llamaindex"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "04-sql-query-agent",
+    "name": "04 Sql Query Agent",
+    "description": "Answers natural language questions about SQL databases by generating and executing queries",
+    "tags": [
+      "sql",
+      "database",
+      "natural-language",
+      "data-analysis"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "05-email-drafting-agent",
+    "name": "05 Email Drafting Agent",
+    "description": "Two-agent CrewAI system that drafts professional emails from context",
+    "tags": [
+      "email",
+      "communication",
+      "crewai",
+      "productivity"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "06-news-summarizer-agent",
+    "name": "06 News Summarizer Agent",
+    "description": "Fetches news on any topic and produces a structured briefing with key themes",
+    "tags": [
+      "news",
+      "summarization",
+      "media",
+      "nlp"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "07-github-issue-triager",
+    "name": "07 Github Issue Triager",
+    "description": "Automatically triages GitHub issues with severity, category, and routing recommendations",
+    "tags": [
+      "github",
+      "devops",
+      "triage",
+      "issue-management",
+      "automation"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "08-data-analysis-agent",
+    "name": "08 Data Analysis Agent",
+    "description": "Chat with CSV/Excel data using natural language queries powered by pandas",
+    "tags": [
+      "data-analysis",
+      "pandas",
+      "csv",
+      "analytics",
+      "natural-language"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "09-resume-parser-agent",
+    "name": "09 Resume Parser Agent",
+    "description": "Parses resumes to structured JSON and scores candidate fit against job descriptions",
+    "tags": [
+      "hr",
+      "recruitment",
+      "resume",
+      "nlp",
+      "parsing"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "10-meeting-notes-agent",
+    "name": "10 Meeting Notes Agent",
+    "description": "Converts meeting transcripts into structured notes with action items and decisions",
+    "tags": [
+      "productivity",
+      "meetings",
+      "summarization",
+      "action-items"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "11-stock-research-agent",
+    "name": "11 Stock Research Agent",
+    "description": "Real-time stock fundamentals with AI-powered investment analysis",
+    "tags": [
+      "finance",
+      "stocks",
+      "investment",
+      "yfinance",
+      "analysis"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "12-travel-planner-agent",
+    "name": "12 Travel Planner Agent",
+    "description": "Multi-agent CrewAI system creating personalized travel itineraries with budget planning",
+    "tags": [
+      "travel",
+      "planning",
+      "crewai",
+      "itinerary",
+      "budget"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "13-customer-support-agent",
+    "name": "13 Customer Support Agent",
+    "description": "RAG-powered customer support agent with escalation routing using LangGraph",
+    "tags": [
+      "customer-support",
+      "rag",
+      "langgraph",
+      "faiss",
+      "escalation"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "14-social-media-agent",
+    "name": "14 Social Media Agent",
+    "description": "Generates platform-optimized content for Twitter, LinkedIn, and Instagram",
+    "tags": [
+      "social-media",
+      "content",
+      "marketing",
+      "crewai",
+      "copywriting"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "15-unit-test-generator",
+    "name": "15 Unit Test Generator",
+    "description": "Generates comprehensive pytest test suites from Python code",
+    "tags": [
+      "testing",
+      "pytest",
+      "code-quality",
+      "automation",
+      "software-development"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "16-documentation-writer",
+    "name": "16 Documentation Writer",
+    "description": "Generates README and docstrings for Python modules",
+    "tags": [
+      "documentation",
+      "docstrings",
+      "readme",
+      "software-development"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "17-recipe-agent",
+    "name": "17 Recipe Agent",
+    "description": "Suggests recipes from available ingredients with instructions and nutrition info",
+    "tags": [
+      "recipes",
+      "food",
+      "nutrition",
+      "recommendation"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "18-job-application-agent",
+    "name": "18 Job Application Agent",
+    "description": "Generates cover letter, interview prep, and salary range from job description + candidate profile",
+    "tags": [
+      "hr",
+      "job-search",
+      "cover-letter",
+      "interview-prep",
+      "recruitment"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "19-competitive-analysis-agent",
+    "name": "19 Competitive Analysis Agent",
+    "description": "Multi-step LangGraph agent for comprehensive competitive landscape analysis",
+    "tags": [
+      "business",
+      "competitive-analysis",
+      "strategy",
+      "langgraph",
+      "market-research"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "20-multi-agent-debate",
+    "name": "20 Multi Agent Debate",
+    "description": "Two AI agents debate any topic with an AI judge scoring the outcome",
+    "tags": [
+      "multi-agent",
+      "debate",
+      "reasoning",
+      "research",
+      "argumentation"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "21-pii-sanitization-agent",
+    "name": "21 Pii Sanitization Agent",
+    "description": "Sanitizes PII from text before it reaches LLMs or external APIs, using the TrustBoost API \u2014 fail-closed, multilingual, on-chain proof",
+    "tags": [
+      "privacy",
+      "pii",
+      "sanitization",
+      "compliance",
+      "security",
+      "safety"
+    ],
+    "status": "ready"
+  }
+]
