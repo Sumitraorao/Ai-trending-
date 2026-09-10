@@ -1,4 +1,3 @@
-import Image from "next/image";
 import agentsData from "../data/agents.json";
 import { ExternalLink, Star, Code, ArrowRight } from "lucide-react";
 
