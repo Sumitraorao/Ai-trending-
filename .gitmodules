@@ -1,0 +1,3 @@
+[submodule "ai-agents-repo"]
+	path = ai-agents-repo
+	url = https://github.com/ashishpatel26/500-AI-Agents-Projects
