@@ -1,0 +1,149 @@
+[
+  {
+    "id": "01-web-research-agent",
+    "name": "Custom query",
+    "description": "A LangGraph agent that searches the web for any topic and synthesizes a structured research report.",
+    "framework": "LangGraph",
+    "path": "ai-agents-repo/agents/01-web-research-agent"
+  },
+  {
+    "id": "02-code-review-agent",
+    "name": "Review non-Python code",
+    "description": "An AI agent that reviews code for bugs, security issues, performance problems, and style violations.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/02-code-review-agent"
+  },
+  {
+    "id": "03-pdf-qa-agent",
+    "name": "Single question",
+    "description": "Loads any PDF and lets you ask questions about it. Supports both single-question and interactive chat modes.",
+    "framework": "LlamaIndex",
+    "path": "ai-agents-repo/agents/03-pdf-qa-agent"
+  },
+  {
+    "id": "04-sql-query-agent",
+    "name": "Single question",
+    "description": "Connects to any SQLite database and answers natural language questions by generating and executing SQL.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/04-sql-query-agent"
+  },
+  {
+    "id": "05-email-drafting-agent",
+    "name": "Custom email",
+    "description": "A CrewAI two-agent system that drafts professional emails. An analyst agent extracts requirements, then a writer agent produces the final email.",
+    "framework": "CrewAI",
+    "path": "ai-agents-repo/agents/05-email-drafting-agent"
+  },
+  {
+    "id": "06-news-summarizer-agent",
+    "name": "News Summarizer Agent",
+    "description": "Fetches news articles on any topic and produces a structured briefing with key themes and insights.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/06-news-summarizer-agent"
+  },
+  {
+    "id": "07-github-issue-triager",
+    "name": "From title + body text",
+    "description": "Automatically triages GitHub issues: assigns severity, category, labels, and routing recommendations.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/07-github-issue-triager"
+  },
+  {
+    "id": "08-data-analysis-agent",
+    "name": "Single question",
+    "description": "Chat with your data. Load any CSV or Excel file and ask analytical questions in natural language.",
+    "framework": "LangChain (Pandas Agent)",
+    "path": "ai-agents-repo/agents/08-data-analysis-agent"
+  },
+  {
+    "id": "09-resume-parser-agent",
+    "name": "Parse + fit score",
+    "description": "Parses resumes (TXT or PDF) into structured JSON and optionally scores candidate fit against a job description.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/09-resume-parser-agent"
+  },
+  {
+    "id": "10-meeting-notes-agent",
+    "name": "Custom output path",
+    "description": "Converts meeting transcripts into structured notes with summary, action items, decisions, and follow-ups.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/10-meeting-notes-agent"
+  },
+  {
+    "id": "11-stock-research-agent",
+    "name": "Stock Research Agent",
+    "description": "Fetches real-time stock data via Yahoo Finance and generates an AI-powered investment analysis.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/11-stock-research-agent"
+  },
+  {
+    "id": "12-travel-planner-agent",
+    "name": "Travel Planner Agent",
+    "description": "Three-agent CrewAI system that creates personalized travel itineraries with destination research, day-by-day plans, and budget breakdown.",
+    "framework": "CrewAI",
+    "path": "ai-agents-repo/agents/12-travel-planner-agent"
+  },
+  {
+    "id": "13-customer-support-agent",
+    "name": "Use your own .txt/.md knowledge base files",
+    "description": "LangGraph-powered support agent with RAG knowledge base and automatic escalation routing.",
+    "framework": "LangGraph + FAISS",
+    "path": "ai-agents-repo/agents/13-customer-support-agent"
+  },
+  {
+    "id": "14-social-media-agent",
+    "name": "Social Media Content Agent",
+    "description": "Generates platform-optimized social media content (Twitter/X, LinkedIn, Instagram) from any topic.",
+    "framework": "CrewAI",
+    "path": "ai-agents-repo/agents/14-social-media-agent"
+  },
+  {
+    "id": "15-unit-test-generator",
+    "name": "Specify output file",
+    "description": "Analyzes Python code and generates comprehensive pytest test suites \u2014 happy paths, edge cases, and error conditions.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/15-unit-test-generator"
+  },
+  {
+    "id": "16-documentation-writer",
+    "name": "Docstrings only",
+    "description": "Generates comprehensive documentation for Python modules: README, API reference, and Google-style docstrings.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/16-documentation-writer"
+  },
+  {
+    "id": "17-recipe-agent",
+    "name": "Recipe Recommendation Agent",
+    "description": "Suggests 3 recipes from your available ingredients with full instructions, nutritional info, and chef tips.",
+    "framework": "LangChain",
+    "path": "ai-agents-repo/agents/17-recipe-agent"
+  },
+  {
+    "id": "18-job-application-agent",
+    "name": "Your own job + profile",
+    "description": "CrewAI agent that generates a complete job application package: cover letter, tailored resume bullets, interview questions, and salary range.",
+    "framework": "CrewAI",
+    "path": "ai-agents-repo/agents/18-job-application-agent"
+  },
+  {
+    "id": "19-competitive-analysis-agent",
+    "name": "Competitive Analysis Agent",
+    "description": "LangGraph multi-step agent that identifies competitors, analyzes each one, and generates a strategic competitive report.",
+    "framework": "LangGraph",
+    "path": "ai-agents-repo/agents/19-competitive-analysis-agent"
+  },
+  {
+    "id": "20-multi-agent-debate",
+    "name": "Multi-Agent Debate System",
+    "description": "Two AI agents debate any topic from opposing sides, with an impartial AI judge declaring a winner.",
+    "framework": "LangChain (multi-agent)",
+    "path": "ai-agents-repo/agents/20-multi-agent-debate"
+  },
+  {
+    "id": "21-pii-sanitization-agent",
+    "name": "PII Sanitization Agent",
+    "description": "Removes sensitive data from text **before** it reaches an LLM or external API.",
+    "framework": "",
+    "path": "ai-agents-repo/agents/21-pii-sanitization-agent"
+  }
+]
