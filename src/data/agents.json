@@ -1,0 +1,222 @@
+[
+  {
+    "id": "01",
+    "title": "Web Research Agent",
+    "url": "01-web-research-agent/",
+    "framework": "LangGraph",
+    "llm": "GPT-4o / Claude",
+    "industry": "General",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "02",
+    "title": "Code Review Agent",
+    "url": "02-code-review-agent/",
+    "framework": "LangChain",
+    "llm": "GPT-4o / Claude",
+    "industry": "Software Dev",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "03",
+    "title": "PDF Q&A Agent",
+    "url": "03-pdf-qa-agent/",
+    "framework": "LlamaIndex",
+    "llm": "GPT-4o",
+    "industry": "Research",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "04",
+    "title": "SQL Query Agent",
+    "url": "04-sql-query-agent/",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Data",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "05",
+    "title": "Email Drafting Agent",
+    "url": "05-email-drafting-agent/",
+    "framework": "CrewAI",
+    "llm": "GPT-4o",
+    "industry": "Communication",
+    "difficulty": "\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "06",
+    "title": "News Summarizer Agent",
+    "url": "06-news-summarizer-agent/",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Media",
+    "difficulty": "\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "07",
+    "title": "GitHub Issue Triager",
+    "url": "07-github-issue-triager/",
+    "framework": "LangGraph",
+    "llm": "GPT-4o / Claude",
+    "industry": "DevOps",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "08",
+    "title": "Data Analysis Agent",
+    "url": "08-data-analysis-agent/",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Analytics",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "09",
+    "title": "Resume Parser Agent",
+    "url": "09-resume-parser-agent/",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "HR",
+    "difficulty": "\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "10",
+    "title": "Meeting Notes Agent",
+    "url": "10-meeting-notes-agent/",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Productivity",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "11",
+    "title": "Stock Research Agent",
+    "url": "11-stock-research-agent/",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Finance",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "12",
+    "title": "Travel Planner Agent",
+    "url": "12-travel-planner-agent/",
+    "framework": "CrewAI",
+    "llm": "GPT-4o",
+    "industry": "Travel",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "13",
+    "title": "Customer Support Agent",
+    "url": "13-customer-support-agent/",
+    "framework": "LangGraph",
+    "llm": "GPT-4o",
+    "industry": "Customer Service",
+    "difficulty": "\u2b50\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "14",
+    "title": "Social Media Content Agent",
+    "url": "14-social-media-agent/",
+    "framework": "CrewAI",
+    "llm": "GPT-4o",
+    "industry": "Marketing",
+    "difficulty": "\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "15",
+    "title": "Unit Test Generator Agent",
+    "url": "15-unit-test-generator/",
+    "framework": "LangChain",
+    "llm": "GPT-4o / Claude",
+    "industry": "Software Dev",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "16",
+    "title": "Documentation Writer Agent",
+    "url": "16-documentation-writer/",
+    "framework": "LangChain",
+    "llm": "GPT-4o / Claude",
+    "industry": "Software Dev",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "17",
+    "title": "Recipe Recommendation Agent",
+    "url": "17-recipe-agent/",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Food",
+    "difficulty": "\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "18",
+    "title": "Job Application Agent",
+    "url": "18-job-application-agent/",
+    "framework": "CrewAI",
+    "llm": "GPT-4o",
+    "industry": "HR",
+    "difficulty": "\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "19",
+    "title": "Competitive Analysis Agent",
+    "url": "19-competitive-analysis-agent/",
+    "framework": "LangGraph",
+    "llm": "GPT-4o",
+    "industry": "Business",
+    "difficulty": "\u2b50\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  },
+  {
+    "id": "20",
+    "title": "Multi-Agent Debate System",
+    "url": "20-multi-agent-debate/",
+    "framework": "LangChain",
+    "llm": "GPT-4o",
+    "industry": "Research",
+    "difficulty": "\u2b50\u2b50\u2b50",
+    "ready_to_use": true,
+    "trending": true
+  }
+]
